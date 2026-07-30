@@ -2,19 +2,6 @@
 #include <vector>
 #include <algorithm>
 
-<<<<<<< HEAD
-int main() {
-    std::ios_base::sync_with_stdio(false);
-    std::cin.tie(NULL);
-
-    int n;
-    long long t;
-    std::cin >> n >> t;
-
-    
-    return 0;
-}
-=======
 bool canProduce(long long time, const std::vector<long long>& k, long long t) {
     long long total_products = 0;
     for (long long machine_time : k)
@@ -55,4 +42,3 @@ int main() {
     std::cout << ans << "\n";
     return 0;
 }
->>>>>>> 74f75400e1b56388c13f64ce1d29317864d4b605
