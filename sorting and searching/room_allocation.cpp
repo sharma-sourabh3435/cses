@@ -23,7 +23,7 @@ int main() {
     std::vector<Customer> customers(n);
     for(int i=0; i<n; i++) {
         std::cin >> customers[i].arrival >> customers[i].departure;
-        customers[i].id = 1;
+        customers[i].id = i;
     }
 
     std::sort(customers.begin(), customers.end(), compareArrival);
